@@ -1,4 +1,15 @@
 Magento Google Analytics
-An extension for Google Analytics e-commerce tracking 'product item categories'.
-See http://code.google.com/apis/analytics/docs/gaJS/gaJSApiEcommerce.html#_gat.GA_Tracker_._addTrans
+
+An extension for Google Analytics e-commerce tracking 'product item categories' and First Touch Tracking
+
+
+References 
+
+http://code.google.com/apis/analytics/docs/gaJS/gaJSApiEcommerce.html#_gat.GA_Tracker_._addTrans
+
+http://www.distilled.net/blog/seo/first-touch-tracking-in-google-analytics/
+
+http://www.aschroder.com/2010/08/magento-and-google-analytics-use-first-touch-tracking-to-see-how-your-customers-first-visit-your-store/
+
+http://inchoo.net/ecommerce/magento/how-to-add-external-javascript-css-file-to-magento/
 

@@ -10,7 +10,25 @@ class Custom_GoogleAnalytics_Block_Ga extends Mage_GoogleAnalytics_Block_Ga
 {
 
     /**
-     * Override core method
+     * Override core method  with async fist touch tracking
+     */
+    protected function _getPageTrackingCode($accountId)
+    {
+        $pageName   = trim($this->getPageName());
+        $optPageURL = '';
+        if ($pageName && preg_match('/^\/.*/i', $pageName)) {
+            $optPageURL = ", '{$this->jsQuoteEscape($pageName)}'";
+        }
+        return "
+_gaq.push(['_setAccount', '{$this->jsQuoteEscape($accountId)}']);
+asyncDistilledFirstTouch(_gaq);
+_gaq.push(['_trackPageview'{$optPageURL}]);
+";
+    }
+
+
+    /**
+     * Override core method to add product item category tracking
      */
     protected function _getOrdersTrackingCode()
     {

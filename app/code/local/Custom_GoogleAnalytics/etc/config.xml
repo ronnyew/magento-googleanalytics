@@ -14,4 +14,13 @@
             </googleanalytics>
         </blocks>
     </global>
+    <frontend>
+        <layout>
+            <updates>
+                <custom_googleanalytics module="Custom_GoogleAnalytics">
+                    <file>custom_googleanalytics.xml</file>
+                </custom_googleanalytics>
+            </updates>
+        </layout>
+    </frontend>
 </config>
