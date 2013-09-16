@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Custom_GoogleAnalytics>
+            <version>0.1.0</version>
+        </Custom_GoogleAnalytics>
+    </modules>
+    <global>
+        <blocks>
+            <googleanalytics>
+                <rewrite>
+                    <ga>Custom_GoogleAnalytics_Block_Ga</ga>
+                </rewrite>
+            </googleanalytics>
+        </blocks>
+    </global>
+</config>

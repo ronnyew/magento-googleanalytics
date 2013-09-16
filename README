@@ -1,2 +1,4 @@
 Magento Google Analytics
 An extension for Google Analytics e-commerce tracking 'product item categories'.
+See http://code.google.com/apis/analytics/docs/gaJS/gaJSApiEcommerce.html#_gat.GA_Tracker_._addTrans
+

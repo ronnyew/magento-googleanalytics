@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Custom_GoogleAnalytics>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Custom_GoogleAnalytics>
+    </modules>
+</config>
